@@ -21,7 +21,6 @@ The respository contains 3 files:
 <li> Put "fruchterman_v3.cc", "Makefile" and "test2.py" together in the same directory (Also make sure that you have the file "/dist-packages/numpy/core/include/numpy/ndarrayobject.h" in Python directory, otherwise, please download the boost numpy lib). </li>
 <li> In "Makefile", please modify the values:
      <ul style=”list-style-type:disc”>
-<>
      <li> python version "PYTHON_VERSION" </li>
      <li> python work space path "PYTHON_INC" </li>
      <li> python boost include path "BOOST_INC" </li>
