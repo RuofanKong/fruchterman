@@ -20,10 +20,12 @@ The respository contains 3 files:
 <li> Make sure you installed the C++ boost library, and set the workspace correctly. </li>
 <li> Put "fruchterman_v3.cc", "Makefile" and "test2.py" together in the same directory (Also make sure that you have the file "/dist-packages/numpy/core/include/numpy/ndarrayobject.h" in Python directory, otherwise, please download the boost numpy lib). </li>
 <li> In "Makefile", please modify the values:
-    -python version "PYTHON_VERSION"
-    -python work space path "PYTHON_INC"
-    -python boost include path "BOOST_INC"
-    -python boost library path "BOOST_LIB" </li>
+     <ul style=”list-style-type:square”>
+     <li> python version "PYTHON_VERSION" </li>
+     <li> python work space path "PYTHON_INC" </li>
+     <li> python boost include path "BOOST_INC" </li>
+     <li> python boost library path "BOOST_LIB" </li> 
+</li>
 <li> In the command line, type "make". </li>
 <li> When you call fruchterman source code in Python, please import  the interface module name "fruchterman_v3". The "test2.py" shows a simple example for usage. </li>
 </ol>
