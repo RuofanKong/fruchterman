@@ -6,10 +6,8 @@ BOOST_INC = /usr/local/boost_1_57_0/prefix/include/
 BOOST_LIB = /usr/lib/usr/local/boost_1_57_0/prefix/lib/
 
 # compile mesh classes
-#TARGET = fruchterman_v1
-#TARGET = try1
 TARGET = fruchterman_v3
-#TARGET = TestModule
+
 
 #-std=c++11
 $(TARGET).so: $(TARGET).o 
