@@ -26,6 +26,7 @@ The respository contains 3 files:
     -python boost library path "BOOST_LIB" <li/>
 <li> In the command line, type "make". <li/>
 <li> When you call fruchterman source code in Python, please import  the interface module name "fruchterman_v3". The "test2.py" shows a simple example for usage. <li/>
+</ol>
 
 <h1> API Reference </h1>
 The source code of Fruchterman Reingold algorithm contains the following arguments needed to pass in from Python side:
