@@ -6,8 +6,9 @@ width: The width of the rectanglar topology.
 height: The height of the rectanglar topology.
 iteration: The iteration number for Fruchterman-Reingold algorithm.
 
-The code is written by Ruofan Kong.
+The code is written by Ruofan (Ryan) Kong.
 */
+
 
 #include <boost/graph/fruchterman_reingold.hpp>
 #include <boost/graph/random_layout.hpp>
