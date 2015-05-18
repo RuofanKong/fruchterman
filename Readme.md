@@ -17,25 +17,25 @@ The respository contains 3 files:
 
 <h1> Implementation </h1>
 <ol type=”1”> 
-<li> Make sure you installed the C++ boost library, and set the workspace correctly. <li/>
-<li> Put "fruchterman_v3.cc", "Makefile" and "test2.py" together in the same directory (Also make sure that you have the file "/dist-packages/numpy/core/include/numpy/ndarrayobject.h" in Python directory, otherwise, please download the boost numpy lib). <li/>
+<li> Make sure you installed the C++ boost library, and set the workspace correctly. </li>
+<li> Put "fruchterman_v3.cc", "Makefile" and "test2.py" together in the same directory (Also make sure that you have the file "/dist-packages/numpy/core/include/numpy/ndarrayobject.h" in Python directory, otherwise, please download the boost numpy lib). </li>
 <li> In "Makefile", please modify the values:
     -python version "PYTHON_VERSION"
     -python work space path "PYTHON_INC"
     -python boost include path "BOOST_INC"
-    -python boost library path "BOOST_LIB" <li/>
-<li> In the command line, type "make". <li/>
-<li> When you call fruchterman source code in Python, please import  the interface module name "fruchterman_v3". The "test2.py" shows a simple example for usage. <li/>
+    -python boost library path "BOOST_LIB" </li>
+<li> In the command line, type "make". </li>
+<li> When you call fruchterman source code in Python, please import  the interface module name "fruchterman_v3". The "test2.py" shows a simple example for usage. </li>
 </ol>
 
 <h1> API Reference </h1>
 The source code of Fruchterman Reingold algorithm contains the following arguments needed to pass in from Python side:
 <ul style=”list-style-type:disc”>
-<li> data: The adjacency matrix of a network which is a 2-D numpy array. <li/>
-<li> size: The vertices number in the network. <li/>
-<li> width: Our desired width of the layout. <li/>
-<li> height: Our desired height of the layout. <li/>
-<li> iteration: The total iteration number of Fruchterman Reingold algorithm. <li/>
+<li> data: The adjacency matrix of a network which is a 2-D numpy array. </li>
+<li> size: The vertices number in the network. </li>
+<li> width: Our desired width of the layout. </li>
+<li> height: Our desired height of the layout. </li>
+<li> iteration: The total iteration number of Fruchterman Reingold algorithm. </li>
 
 
 </html>
